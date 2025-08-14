@@ -7,11 +7,12 @@ import Home from "./component/Home/Home.jsx";
 import User from "./component/User/User.jsx";
 import UserDetails from "./component/UserDetails/UserDetails.jsx";
 import ErrorPage from "./component/Errorpage/ErrorPage.jsx";
+import SimpleForm from "./component/SimpleForm/SimpleForm.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <SimpleForm/>,
     errorElement: <ErrorPage/>,
     children: [
      
