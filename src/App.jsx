@@ -5,7 +5,7 @@ function App() {
   
   return (
     <>
-     React Router
+     React Router DOM
     </>
   )
 }
