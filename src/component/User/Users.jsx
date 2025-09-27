@@ -5,7 +5,7 @@ const Users = ({user}) => {
   return (
     <div>
       <h1>User Name : {user.name}</h1>
-      <h2>Email : {user.email}</h2>
+      <h2>User Email : {user.email}</h2>
       <Link to={`/users/${user.id}`}>Show Details</Link>
     </div>
   )
